@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Uso de datos y permisos de Google de la aplicación personal IBKR Swing Scanner.">
+  <title>Privacidad · IBKR Swing Scanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="index.html">IBKR Swing Scanner</a><nav aria-label="Navegación"><a href="index.html">Inicio</a></nav></header>
+  <main>
+    <p class="eyebrow">Información de privacidad</p>
+    <h1>Uso personal y acceso limitado a archivos.</h1>
+    <p class="lead">Esta política describe el uso de información de Google por IBKR Swing Scanner. La persona titular de la aplicación administra el proyecto para su propio uso.</p>
+    <section><h2>Información y finalidad</h2>
+      <p>La integración de Google en desarrollo se destina a crear, leer y actualizar archivos del proyecto: copias del histórico OHLCV, metadatos de integridad, informes de ejecución y una hoja técnica de candidatos. El programa no necesita datos de cuentas bursátiles, saldos, posiciones ni órdenes para esta integración.</p>
+      <p>El permiso solicitado es <code>https://www.googleapis.com/auth/drive.file</code>. Permite trabajar con archivos creados o abiertos con la aplicación. No se solicita el permiso de acceso general a Drive.</p>
+    </section>
+    <section><h2>Autorización y protección</h2>
+      <p>Google gestiona el inicio de sesión y el consentimiento. La aplicación no recibe ni almacena la contraseña de Google. Los tokens permiten acceder a los recursos autorizados.</p>
+      <p>El asistente de escritorio cifra las credenciales guardadas localmente mediante Windows DPAPI, vinculándolas al usuario de Windows. Las credenciales destinadas a la futura ejecución automática se almacenarán en GitHub Actions Secrets. Los tokens y las claves se excluyen del repositorio y de los registros.</p>
+      <p>Las comunicaciones con las APIs se realizan mediante HTTPS. Las copias usan huellas de integridad y pruebas de recuperación. El usuario controla los permisos de los archivos en Google Drive.</p>
+    </section>
+    <section><h2>Servicios y divulgación</h2>
+      <p>Google procesa la información alojada en Drive y Sheets. GitHub aloja el código privado y ejecutará los trabajos configurados. Massive proporciona los datos de mercado. Cada servicio aplica sus propias condiciones y políticas.</p>
+      <p>El proyecto no vende información de Google ni la utiliza para publicidad. El uso y la transferencia de información recibida de las APIs de Google se ajustarán a la <a href="https://developers.google.com/terms/api-services-user-data-policy">política de datos de usuario de los servicios de API de Google</a>, incluidos sus requisitos de uso limitado.</p>
+      <p>El proyecto no utiliza información obtenida de Google Workspace para desarrollar, mejorar o entrenar modelos generales de inteligencia artificial. El motor Python no utiliza una API de OpenAI. Si el usuario solicita revisar una hoja en ChatGPT mediante su conexión de Drive, ese acceso depende de su autorización y de la configuración y condiciones de dicho servicio.</p>
+    </section>
+    <section><h2>Conservación y control</h2>
+      <p>Los archivos del proyecto se conservan para mantener el histórico de trabajo y permitir su recuperación. La política de conservación local y remota se configurará con límites de tamaño. Actualmente no se ejecuta un borrado automático del histórico original.</p>
+      <p>El usuario puede revocar el acceso en <a href="https://myaccount.google.com/connections">las conexiones de su cuenta Google</a>. Revocar la autorización impide accesos posteriores, pero no elimina automáticamente los archivos existentes. Puede borrar los archivos desde Drive y retirar las credenciales locales y los secretos de GitHub.</p>
+    </section>
+    <section><h2>Esta web y contacto</h2>
+      <p>Estas páginas son informativas y no contienen formularios, analítica ni scripts de seguimiento propios. El proveedor que las aloje puede tratar registros técnicos de navegación conforme a su política.</p>
+      <p>Para consultas sobre privacidad, utiliza el correo de asistencia mostrado por Google en la pantalla de consentimiento de IBKR Swing Scanner. El texto se actualizará cuando cambie el tratamiento de datos del proyecto.</p>
+    </section>
+  </main>
+  <footer>Actualización: 6 de noviembre de 2026 · <a href="index.html">Información de la aplicación</a></footer>
+</body>
+</html>
